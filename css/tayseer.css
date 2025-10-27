@@ -23,6 +23,7 @@
   --service_b: #ffffff;
   --service_bh: #f0d8bc;
   --service_bhp: #ffffff;
+  --V_M_span: #194937;
   --V_p: #ffffff;
   --M_p: #000000;
   --M_bg: #f6e9d9;
@@ -63,6 +64,7 @@
   --service_b: #194937;
   --service_bh: #194937;
   --service_bhp: #ffffff;
+  --V_M_span: #f6e9d9;
   --V_p: #000000;
   --M_bg: #f0d8bc;
   --V_bg: #f6e9d9;
@@ -448,7 +450,7 @@ hr {
 }
 
 .and_span {
-  color: var(--w-color);
+  color: var(--V_M_span);
 }
 .col .mission {
   background-color: var(--M_bg);
