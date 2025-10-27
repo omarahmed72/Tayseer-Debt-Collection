@@ -552,6 +552,9 @@ hr {
   background-color: var(--green-color);
   border-color: var(--green-color);
 }
+.footer h3{
+  margin-bottom: 30px;
+}
 
 @media (max-width: 768px) {
   .footer .bg-secondary .container span img {
@@ -593,3 +596,4 @@ hr {
   animation-duration: 2s;
   animation-delay: 1s;
 } */
+
