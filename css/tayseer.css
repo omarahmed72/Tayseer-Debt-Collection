@@ -153,6 +153,8 @@ p {
   position: absolute;
   right: 0;
   top: 9px;
+  border: none;
+  outline: none;
 }
 .navbar-collapse ul {
   background-color: var(--white-color);
@@ -280,7 +282,10 @@ hr {
   clear: both;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
+  .about h2 {
+    font-size: 37px;
+  }
 }
 
 /* @media (min-width: 768px) and (max-width: 992px) {
@@ -479,7 +484,7 @@ hr {
 .slider .card .card-img {
   height: inherit;
   opacity: 0;
-  transition:  0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 .slider .card .card-img:hover {
   opacity: 1;
@@ -505,7 +510,7 @@ hr {
   border-color: var(--green-color);
   outline: hidden;
 }
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
   color: var(--white-color);
   background-color: var(--green-color);
   border-color: var(--green-color);
@@ -552,7 +557,7 @@ hr {
   background-color: var(--green-color);
   border-color: var(--green-color);
 }
-.footer h3{
+.footer h3 {
   margin-bottom: 30px;
 }
 
@@ -596,4 +601,3 @@ hr {
   animation-duration: 2s;
   animation-delay: 1s;
 } */
-
