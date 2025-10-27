@@ -12,6 +12,9 @@
   --dark-color: #040f0f;
   --green-color: #194937;
   --p-color: #000000;
+  --about_span_1: #194937;
+  --about_span_2: #b91617;
+  --about_span_3: #040f0f;
   --span1: #000000;
   --span2: #194937;
   --service_bg: #194937;
@@ -49,6 +52,9 @@
   --dark-color: #ffffff;
   --green-color: #ffffff;
   --p-color: #ffffff;
+  --about_span_1: #f3a62b;
+  --about_span_2: #f0d8bc;
+  --about_span_3: #ffffff;
   --span1: #ffffff;
   --span2: #f0d8bc;
   --service_bg: #f0d8bc;
@@ -350,9 +356,9 @@ hr {
 .about .container h2 span {
   background: linear-gradient(
     90.72deg,
-    var(--green-color) 20.49%,
-    var(--red-color) 36.67%,
-    var(--dark-color) 79.79%
+    var(--about_span_1) 20.49%,
+    var(--about_span_2) 36.67%,
+    var(--about_span_3) 79.79%
   );
 
   -webkit-background-clip: text;
